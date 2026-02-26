@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali Baba Clone</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom Styles */
+    .hero {
+      background: url('https://img.freepik.com/free-photo/female-friends-out-shopping-together_53876-25041.jpg') center/cover no-repeat;
+      color: white;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .category-card img {
+      height: 150px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Ali Baba</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item"><a class="btn btn-primary ms-3" href="#">Sign In</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1 class="display-4 fw-bold">Discover Amazing Products</h1>
+      <p class="lead">Connecting you with suppliers from all around the world</p>
+      <a href="#" class="btn btn-warning btn-lg mt-3">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Popular Categories</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card category-card">
+            <img src="https://i.ytimg.com/vi/a_9NgNI5qlQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDFqbL0OLxRXOA46fvz5-cga6X4Mg" class="card-img-top" alt="Electronics">
+            <div class="card-body text-center">
+              <h5 class="card-title">Electronics</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card category-card">
+            <img src="https://media.istockphoto.com/id/612261814/photo/mens-accessories.jpg?s=612x612&w=0&k=20&c=nzaT3fliFabYOC7omrNiWtnnCqENkG23kpsFBMEul-I=" class="card-img-top" alt="Fashion">
+            <div class="card-body text-center">
+              <h5 class="card-title">Fashion</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card category-card">
+            <img src="https://s.alicdn.com/@sc04/kf/H90e3e7166cd14cdf93dc77cbade6d317q/WBERT-Furniture-Factory-Direct-Sales-North-American-Sofa-Living-Room-Set-One-stop-Whole-House-Design-Custom-Home-Furniture.png_300x300.jpg" class="card-img-top" alt="Furniture">
+            <div class="card-body text-center">
+              <h5 class="card-title">Furniture</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card category-card">
+            <img src="https://s.alicdn.com/@sc04/kf/Haca8be73ac814a58bc5cccc831864caeP.jpg" class="card-img-top" alt="Toys">
+            <div class="card-body text-center">
+              <h5 class="card-title">Toys</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Featured Products</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgi75N-AdRTCLOVD_dzKOrcbTeJTBnATNw1Q&s" class="card-img-top" alt="Product" width="100" height="250">
+            <div class="card-body">
+              <h5 class="card-title">Laptop</h5>
+              <p class="card-text">$499</p>
+              <a href="#" class="btn  btn-outline-primary btn-sm">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://pk-live-21.slatic.net/kf/S147563a8c63c4f6bac144427a2a65feaj.jpg" class="card-img-top" alt="Product"
+            height="250" >
+            <div class="card-body">
+              <h5 class="card-title">Shirt</h5>
+              <p class="card-text">$29</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwN-r-7EQsKx5ZH_-GJ6CrpjLUJf4qB8eLsw&s" class="card-img-top" alt="Product"
+            height="250">
+            <div class="card-body">
+              <h5 class="card-title">Sofa</h5>
+              <p class="card-text">$899</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvjIEMPAQxul_4uufCDL8fCiOMkFq68qqWRw&s" class="card-img-top" alt="Product"
+            height="250">
+            <div class="card-body">
+              <h5 class="card-title">Watch</h5>
+              <p class="card-text">$199</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2026 Ali Baba Clone. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
